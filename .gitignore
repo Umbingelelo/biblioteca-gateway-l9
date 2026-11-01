@@ -1,0 +1,13 @@
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+.env
+.env.*
+!.env.example
+.DS_Store
+*.log
+
+# La clave privada del certificado de docs/https-y-wireshark.md NUNCA se sube: en un repositorio
+# publico no se arregla borrandola despues, queda en el historial.
+cert/
